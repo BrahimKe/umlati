@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, TouchableOpacity } from 'react-native';
 
+import { theme } from "../constants";
+
 export default class Splash extends React.Component {
   static navigationOptions = {
     header: null
@@ -35,7 +37,7 @@ const styles = StyleSheet.create({
     width: '50%',
     height: 48,
     borderRadius: 24,
-    backgroundColor: '#26A65B',
+    backgroundColor: theme.colors.accent,
     alignItems: 'center',
     justifyContent: 'center',
   }

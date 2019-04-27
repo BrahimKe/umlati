@@ -10,7 +10,7 @@ const MainNavigation = createStackNavigator({
 	Home,
 	Camera
 }, {
-    initialRouteName: "Splash"
+    initialRouteName: "Home"
 })
 
 export default createAppContainer(MainNavigation);
